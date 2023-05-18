@@ -1,0 +1,63 @@
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    align-content: center;
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.header {
+    padding: 10px;
+    height: 50px;
+    border: black solid 1px;
+    color: white;
+
+    background: #E9E9E9;
+    background: -webkit-radial-gradient(top left, #E9E9E9, #5F0404);
+    background: -moz-radial-gradient(top left, #E9E9E9, #5F0404);
+    background: radial-gradient(to bottom right, #E9E9E9, #5F0404);
+}
+
+.itemHeader {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #5F0404;
+    color: white;
+    margin-top: 10px;    
+}
+
+.taskItem {
+    padding: 3px 3px 3px 10px;
+    background: white;
+    color: black;
+}
+
+.taskItem.colored{
+    background: #BB9D9D;
+}
+
+.aside {
+    color: black;
+    text-align: center;
+    position: relative;
+    background: white;
+    float: right;
+    border: black solid 1px;
+    height: 80px;
+    width: 80px;
+    top: -60px;
+    padding: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    background: black;
+    float: left;
+  }

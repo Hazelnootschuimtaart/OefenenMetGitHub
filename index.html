@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>    
+    <link rel="stylesheet" href="to-do.css">
+    <script type="module" src="data.js"></script>
+</head>
+
+<body>
+    <header class="header">TO-DO LIST
+        <aside class="aside">
+            <p id="currentYear"></p>
+            <p id="currentDate"></p>
+        </aside>
+    </header>
+
+    <section>
+        <h2 class="itemHeader">Tasks</h2>
+        <section id="contentElem"></section>  
+        <footer>
+            <button id="moveUp">Move Up</button>
+            <button id="moveDown">Move Down</button>
+            &nbsp;&nbsp;            
+            <button id= "MarkComplete">Mark as Completed</button>   
+        </footer>
+    </section>
+
+    <section>
+        <h2 class="itemHeader">Completed Tasks</h2>    
+        <section id="contentCompletedElem">
+        </section>
+        <footer>
+            <button id="deleteTask">Delete Task</button>                        
+        </footer>
+    </section>
+
+    <footer>
+        <input type="text" id="taskName" name="taskName">
+        <button id="addTask">Add Task</button>
+    </footer>
+</body>
+</html>
