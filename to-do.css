@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     align-content: center;
     padding-top: 100px;
+    background-color: aquamarine;
 }
 
 h2 {
@@ -30,7 +31,7 @@ footer {
     padding-right: 10px;
     background: #5F0404;
     color: white;
-    margin-top: 10px;    
+    margin-top: 10px;
 }
 
 .taskItem {
@@ -39,7 +40,7 @@ footer {
     color: black;
 }
 
-.taskItem.colored{
+.taskItem.colored {
     background: #BB9D9D;
 }
 
@@ -60,4 +61,4 @@ input[type="radio"] {
     margin-right: 10px;
     background: black;
     float: left;
-  }
+}
